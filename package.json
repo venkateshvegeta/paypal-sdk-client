@@ -50,6 +50,7 @@
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
   "dependencies": {
+    "@krakenjs/cross-domain-utils": "^3.0.2",
     "@paypal/sdk-constants": "^1.0.94",
     "beaver-logger": "^4.0.0",
     "belter": "^1.0.146",
