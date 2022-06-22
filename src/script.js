@@ -128,6 +128,10 @@ export function getIntent() : $Values<typeof INTENT> {
     return getSDKQueryParam(SDK_QUERY_KEYS.INTENT, DEFAULT_INTENT);
 }
 
+export function getSynchronousFlag() : $Values<typeof INTENT> {
+    return getSDKQueryParam(SDK_QUERY_KEYS.INTENT, DEFAULT_INTENT);
+}
+
 export function getCommit() : $Values<typeof COMMIT> {
     return getSDKQueryParamBool(SDK_QUERY_KEYS.COMMIT, getIntent() === INTENT.CAPTURE ? DEFAULT_SALE_COMMIT : DEFAULT_NONSALE_COMMIT);
 }
